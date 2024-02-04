@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 50px auto;
+    width:500px;
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+.color-grid{
+    display: grid;
+    height: 400px;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: repeat(5,1fr);
+}
+.color-text{
+    text-align: center;
+    font-weight: 700;
+    grid-row:2;
+}
+button{
+    background-color: white;
+}
+input,select,button{
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+}
